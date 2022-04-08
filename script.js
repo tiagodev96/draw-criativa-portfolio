@@ -10,11 +10,10 @@ menu.on("toggle", () => {
   dropmenu.classList.toggle("active");
 });
 
-/* GRID PORTFOLIO */
+/* SWIPER */
 var swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
   },
   loop: true,
   slidesPerView: 1,
