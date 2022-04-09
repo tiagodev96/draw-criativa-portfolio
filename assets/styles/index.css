@@ -20,6 +20,25 @@ body {
   padding: 0 10px 10px 10px;
 }
 
+.page-subtitle {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.element-separator {
+  margin: 1rem 0;
+  display: block;
+  border-top: 5px solid #f8f9fa;
+  width: 64px;
+}
+
+.page-description {
+  font-size: 1.25rem;
+  margin: 1.5rem 0 2.5rem 0;
+  width: 50%;
+  min-width: 380px;
+}
+
 /* ------------NAVBAR------------ */
 .navbar {
   align-items: center;
@@ -207,4 +226,22 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0.4;
+}
+
+/* ------------footer------------ */
+.footer-developed-by {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+  opacity: 0.6;
+
+  transition: 0.3s ease-in-out;
+}
+
+.footer-developed-by-link {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+.footer-developed-by:hover {
+  transform: scale(1.05);
 }

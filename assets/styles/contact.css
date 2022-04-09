@@ -1,0 +1,68 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 750px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-title {
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #212529;
+  background: #f8f9fa;
+  padding: 30px;
+}
+
+.input-field {
+  font-family: "Crimson Pro", serif;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.125rem;
+  background-color: #212529;
+  color: #f8f9fa;
+  border: none;
+}
+
+.contact-options {
+  background-color: #c6cacf;
+  border-radius: 0px 5px 5px 0px;
+  color: black;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact-title {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-type {
+  font-size: 1.45rem;
+}
+
+.send-button {
+  background-color: #212529;
+  border: none;
+  border-radius: 5px;
+  color: #f8f9fa;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+  width: 60px;
+}
+
+.send-button:hover {
+  transform: scale(1.05);
+}

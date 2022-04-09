@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Draw Criativa</title>
     <link rel="stylesheet" href="./assets/styles/index.css" />
+    <link rel="stylesheet" href="./assets/styles/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    =
     <script
       type="text/javascript"
       src="https://unpkg.com/menu-hamburger@2.0.0/lib/menu-hamburger.min.js"
     ></script>
     <script
-      src="https://kit.fontawesome.com/749fb001c7.js"
-      crossorigin="anonymous"
-    ></script>
+    src="https://kit.fontawesome.com/749fb001c7.js"
+    crossorigin="anonymous"
+  ></script>
   </head>
 
   <body>
@@ -89,19 +89,77 @@
         </div>
       </nav>
     </header>
-    <main class="container">
-      <section class="portfolio">
-        <div class="page-title">
-          <h1 class="portfolio-title">Contato</h1>
-          <img
-            class="title-background"
-            src="./assets/images/title-background.jpg"
-            alt=""
-          />
+    <main>
+      <div class="page-title">
+        <h1 class="portfolio-title">Contato</h1>
+        <img
+          class="title-background"
+          src="./assets/images/title-background.jpg"
+          alt=""
+        />
+      </div>
+      <section class="container">
+        <div class="subtitle-area">
+          <h4 class="page-subtitle">Entre em Contato</h4>
+          <span class="element-separator"></span>
+          <p class="page-description">Não fique com dúvidas! Estamos prontos para atendê-lo e solucionar qualquer que seja o seu problema.</p>
+        </div>
+        <div class="contact">
+          <form class="contact-form">
+            <h2 class="contact-title">Nos envie uma mensagem pelo WhatsApp</h2>
+            <input
+              class="input-field"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Seu nome..."
+            />
+            <textarea
+              class="input-field"
+              name="message"
+              id="message"
+              rows="7"
+              placeholder="Mensagem..."
+            ></textarea>
+
+            <button class="send-button">Enviar</button>
+          </form>
+          <div class="contact-options">
+            <div class="phone">
+              <div class="contact-title">
+                <img src="./assets/images/icons/svg-phone.svg" width="32" heigh="32" alt="">
+                <h4 class="contact-type">Telefone</h4>
+              </div>
+            </div>
+            <div class="localization">
+                <div class="contact-title">
+                    <img
+                      src="./assets/images/icons/svg-location.svg"
+                      alt=""
+                      width="32"
+                      height="32"
+                    />
+                    <h4 class="contact-type">Localização</h4>
+            </div>
+            <div class="email">
+                <div class="contact-title">
+                    <img
+                      src="./assets/images/icons/svg-email.svg"
+                      alt=""
+                      width="32"
+                      height="32"
+                    />
+                    <h4 class="contact-type">E-mail</h4>
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="container">
+      <a class="footer-developed-by-link" href="https://github.com/tiagodev96"
+        ><p class="footer-developed-by">developed by TFrontDev</p></a
+      >
+    </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
