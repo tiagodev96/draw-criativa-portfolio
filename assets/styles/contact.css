@@ -40,7 +40,17 @@
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 50px;
+}
+
+.phone,
+.localization,
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
 }
 
 .contact-title {
@@ -65,4 +75,8 @@
 
 .send-button:hover {
   transform: scale(1.05);
+}
+
+.iframe-map {
+  width: 100%;
 }
