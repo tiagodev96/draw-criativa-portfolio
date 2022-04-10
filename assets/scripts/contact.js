@@ -11,4 +11,13 @@ button.addEventListener("click", (e) => {
 
   let whatsappLink = `https://api.whatsapp.com/send?phone=${phone}&text=${encodedMessage}`;
   window.open(whatsappLink, "_blank");
+  clearInputs();
 });
+
+function clearInputs() {
+  let nameInput = document.querySelector("#name");
+  let textInput = document.querySelector("#message");
+
+  nameInput.value = "";
+  textInput.value = "";
+}
