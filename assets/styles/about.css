@@ -1,0 +1,143 @@
+.image-area {
+  position: relative;
+}
+
+.image-border {
+  display: block;
+  border: 4px solid #f8f9fa;
+  height: 500px;
+  width: 376px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.image-area {
+  margin: 0 auto;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.description > .page-subtitle {
+  margin-top: 0;
+}
+
+.company-qualities {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 25px;
+}
+
+.quality {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.quality-description {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 900px) {
+  .about-us {
+    grid-template-columns: 1fr;
+  }
+
+  .description {
+    align-items: center;
+  }
+
+  .description > .page-subtitle {
+    margin-top: 2rem;
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .image-border {
+    display: none;
+  }
+
+  .company-qualities {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    gap: 25px;
+    align-self: flex-start;
+  }
+}
+
+.services {
+  background: #f8f9fa;
+  margin: 5rem 0;
+  padding: 2rem 0;
+}
+
+.services-title {
+  color: #212529;
+}
+
+.services-separator {
+  border-top: 5px solid #212529;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 700px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+}
+
+.service1 {
+  background-color: #c8c6c6;
+}
+
+.service2 {
+  background-color: #d9d9d9;
+}
+
+.service3 {
+  background-color: #efefef;
+}
+
+.service-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.service-text {
+  padding: 1rem;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  color: #212529;
+}
+
+.service-description {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  color: #212529;
+}

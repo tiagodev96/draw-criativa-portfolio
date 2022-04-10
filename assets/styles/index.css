@@ -35,8 +35,7 @@ body {
 .page-description {
   font-size: 1.25rem;
   margin: 1.5rem 0 2.5rem 0;
-  width: 50%;
-  min-width: 380px;
+  min-width: 330px;
 }
 
 /* ------------NAVBAR------------ */

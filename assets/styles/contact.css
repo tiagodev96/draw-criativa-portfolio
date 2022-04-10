@@ -3,6 +3,14 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.page-description {
+  width: 50%;
+}
+
+.page-description.contact-description {
+  color: #f8f9fa;
+}
+
 @media (max-width: 750px) {
   .contact {
     grid-template-columns: 1fr;
@@ -77,6 +85,30 @@
   transform: scale(1.05);
 }
 
+.google-maps {
+  background-color: #f8f9fa;
+}
+
+.location-title {
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.location-title,
+.page-description {
+  color: #212529;
+}
+
+.element-location {
+  border-top: 5px solid #212529;
+}
+
 .iframe-map {
   width: 100%;
+}
+
+.phone p,
+.localization p,
+.email p {
+  font-size: 1.125rem;
 }
