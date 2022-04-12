@@ -128,7 +128,7 @@
 
                   <h3 class="project-legend">Projetos de Máquinas</h3>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openDispositivosModal()">
                   <a class="link-to-project" href="#"></a>
                   <img
                     src="./assets/images/services/dispositivos/DISPOSITIVO-DE-ALIMENTACAO-DE-PREGOS.jpeg"
@@ -141,7 +141,7 @@
             </div>
             <div class="swiper-slide">
               <div class="grid-slide">
-                <div class="project">
+                <div class="project" onclick="openAdaptacaoModal()">
                   <a class="link-to-project" href="#"></a>
                   <img
                     src="./assets/images/services/adaptacao/MESA-DE-PREGAGEM-HIDRAULICA.jpeg"
@@ -150,7 +150,7 @@
 
                   <h3 class="project-legend">Adaptação de Máquinas</h3>
                 </div>
-                <div class="project">
+                <div class="project" onclick="openLayout3DModal()">
                   <a class="link-to-project" href="#"></a>
                   <img
                     src="./assets/images/services/layout-3d/LAYOUT-3D-3.png"
@@ -163,7 +163,7 @@
             </div>
             <div class="swiper-slide">
               <div class="grid-slide">
-                <div class="project">
+                <div class="project" onclick="openNR12Modal()">
                   <a class="link-to-project" href="#"></a>
                   <img
                     src="./assets/images/services/nr12/MAQUINA-DE-CORTE-COM-ADEQUACAO-PARA-NR12-2.png"
@@ -187,73 +187,486 @@
             --swiper-navigation-color: #fff;
             --swiper-pagination-color: #fff;
           "
-          class="swiper modal-swipper2"
+          class="swiper modal-projetos-maquinas2"
         >
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img
-                class="swipper-lazy"
-                src="https://swiperjs.com/demos/images/nature-1.jpg"
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira-com-dispositivo-concha.jpeg"
               />
             </div>
             <div class="swiper-slide">
               <img
-                class="swipper-lazy"
-                src="https://swiperjs.com/demos/images/nature-2.jpg"
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira1.png"
               />
             </div>
             <div class="swiper-slide">
               <img
-                class="swipper-lazy"
-                src="https://swiperjs.com/demos/images/nature-3.jpg"
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira2.png"
               />
             </div>
             <div class="swiper-slide">
               <img
-                class="swipper-lazy"
-                src="https://swiperjs.com/demos/images/nature-4.jpg"
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira3.png"
               />
             </div>
             <div class="swiper-slide">
               <img
-                class="swipper-lazy"
-                src="https://swiperjs.com/demos/images/nature-5.jpg"
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira5.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/carreta-para-transporte-de-bins.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/Dispositivo-Concha.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/Dispositivo-de-Garra.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/Dispositivo-Garfo.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/EMPILHADEIRA-F4086.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/ESTACAO-DE-TRABALHO.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/ESTACAO-DE-TREINAMENTO-EM-LOCAL-ABERTO.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/MAQUINA-DE-ALTA-PRODUÇÃO-DE-TABUAS.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/MAQUINA-DE-CORTE-AUTOMATICA.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/MAQUINA-SEMI-AUTOMATICA.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/para-pdf-1.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/para-pdf-2.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/PREGADEIRA-CNC.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/projeto-de-maquinas/F4086.jpg"
               />
             </div>
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
         </div>
-        <div thumbsSlider="" class="swiper modal-swipper">
+        <div thumbsSlider="" class="swiper modal-projetos-maquinas">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img
                 class="swipper-lazy thumb-image"
-                src="https://swiperjs.com/demos/images/nature-1.jpg"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira-com-dispositivo-concha.jpeg"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="swipper-lazy thumb-image"
-                src="https://swiperjs.com/demos/images/nature-2.jpg"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira1.png"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="swipper-lazy thumb-image"
-                src="https://swiperjs.com/demos/images/nature-3.jpg"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira2.png"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="swipper-lazy thumb-image"
-                src="https://swiperjs.com/demos/images/nature-4.jpg"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira3.png"
               />
             </div>
             <div class="swiper-slide">
               <img
                 class="swipper-lazy thumb-image"
-                src="https://swiperjs.com/demos/images/nature-5.jpg"
+                src="./assets/images/services/projeto-de-maquinas/carregadeira5.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/carreta-para-transporte-de-bins.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/Dispositivo-Concha.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/Dispositivo-de-Garra.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/Dispositivo-Garfo.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/EMPILHADEIRA-F4086.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/ESTACAO-DE-TRABALHO.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/ESTACAO-DE-TREINAMENTO-EM-LOCAL-ABERTO.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/MAQUINA-DE-ALTA-PRODUÇÃO-DE-TABUAS.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/MAQUINA-DE-CORTE-AUTOMATICA.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/MAQUINA-SEMI-AUTOMATICA.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/para-pdf-1.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/para-pdf-2.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/PREGADEIRA-CNC.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/projeto-de-maquinas/F4086.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="modal hide" id="modal-dispositivos">
+        <div class="close-modal" onclick="closeModal()">X</div>
+        <div
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+          class="swiper modal-dispositivos2"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/dispositivos/DISPOSITIVO-DE-ALIMENTACAO-DE-PREGOS.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/dispositivos/DISPOSITIVO-PARA-PREGAGEM-AUTOMATICA.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/dispositivos/dispositivo.png"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper modal-dispositivos">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/dispositivos/DISPOSITIVO-DE-ALIMENTACAO-DE-PREGOS.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/dispositivos/DISPOSITIVO-PARA-PREGAGEM-AUTOMATICA.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/dispositivos/dispositivo.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="modal hide" id="modal-adaptacao">
+        <div class="close-modal" onclick="closeModal()">X</div>
+        <div
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+          class="swiper modal-adaptacao2"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/adaptacao/ADAPTACAO-DE-GABARITO-2.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/adaptacao/ADAPTACAO-DE-GABARITO.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/adaptacao/ADAPTACAO.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/adaptacao/GABARITOS.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/adaptacao/MESA-DE-PREGAGEM-HIDRAULICA-2.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/adaptacao/MESA-DE-PREGAGEM-HIDRAULICA.jpeg"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper modal-adaptacao">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/adaptacao/ADAPTACAO-DE-GABARITO-2.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/adaptacao/ADAPTACAO-DE-GABARITO.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/adaptacao/ADAPTACAO.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/adaptacao/GABARITOS.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/adaptacao/MESA-DE-PREGAGEM-HIDRAULICA-2.jpeg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/adaptacao/MESA-DE-PREGAGEM-HIDRAULICA.jpeg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="modal hide" id="modal-layout3d">
+        <div class="close-modal" onclick="closeModal()">X</div>
+        <div
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-navigation-outline: #000;
+            --swiper-pagination-color: #fff;
+          "
+          class="swiper modal-layout3d2"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/layout-3d/LAYOUT-3D-1.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/layout-3d/LAYOUT-3D-2.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/layout-3d/LAYOUT-3D-3.png"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper modal-layout3d">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/layout-3d/LAYOUT-3D-1.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/layout-3d/LAYOUT-3D-2.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/layout-3d/LAYOUT-3D-3.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="modal hide" id="modal-NR12">
+        <div class="close-modal" onclick="closeModal()">X</div>
+        <div
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+          class="swiper modal-NR122"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/nr12/MAQUINA-DE-CORTE-COM-ADEQUACAO-PARA-NR12-1.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy image-on-modal"
+                src="./assets/images/services/nr12/MAQUINA-DE-CORTE-COM-ADEQUACAO-PARA-NR12-2.png"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper modal-NR12">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/nr12/MAQUINA-DE-CORTE-COM-ADEQUACAO-PARA-NR12-1.png"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="./assets/images/services/nr12/MAQUINA-DE-CORTE-COM-ADEQUACAO-PARA-NR12-2.png"
               />
             </div>
           </div>

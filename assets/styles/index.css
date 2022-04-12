@@ -8,6 +8,13 @@
   text-decoration: none;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  fill: white;
+}
+
 body {
   background-color: #212529;
   color: #f8f9fa;
@@ -277,21 +284,22 @@ body {
 }
 
 .close-modal {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  padding: 1px 8px;
-  color: #212529;
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
   background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
   background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  color: #212529;
+  display: flex;
+  cursor: pointer;
   font-size: 2rem;
+  justify-content: center;
+  padding: 1px 8px;
   position: absolute;
   right: 35px;
   top: 15px;
-  cursor: pointer;
   transition: 0.3s ease-in-out;
+  z-index: 999999;
 }
 
 .close-modal:hover {
@@ -300,14 +308,50 @@ body {
   transform: scale(1.05);
 }
 
-.modal-swipper2 {
+.modal-projetos-maquinas2,
+.modal-dispositivos2,
+.modal-adaptacao2,
+.modal-layout3d2,
+.modal-NR122 {
   height: 65vh !important;
 }
 
-.modal-swipper {
+.modal-projetos-maquinas,
+.modal-dispositivos,
+.modal-adaptacao,
+.modal-layout3d,
+.modal-NR12 {
   height: 25vh !important;
 }
 
 .thumb-image {
   cursor: pointer;
+  object-fit: fill !important;
+}
+
+@media (max-width: 800px) {
+  .modal {
+    padding: 0 1rem;
+    gap: 5px;
+  }
+
+  .modal-projetos-maquinas2,
+  .modal-dispositivos2,
+  .modal-adaptacao2,
+  .modal-layout3d2,
+  .modal-NR122 {
+    height: 75vh !important;
+  }
+
+  .modal-projetos-maquinas,
+  .modal-dispositivos,
+  .modal-adaptacao,
+  .modal-layout3d,
+  .modal-NR12 {
+    height: 10vh !important;
+  }
+}
+
+.image-on-modal {
+  object-fit: scale-down !important;
 }
