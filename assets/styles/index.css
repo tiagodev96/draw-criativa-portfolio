@@ -283,6 +283,21 @@ body {
   justify-content: center;
 }
 
+.swiper-slide {
+  position: relative;
+}
+
+.image-legend {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0 5px;
+}
+
 .close-modal {
   align-items: center;
   background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);

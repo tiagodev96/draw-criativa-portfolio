@@ -28,3 +28,8 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+//* redirection function PAGE ABOUT (SOBRE)
+function redirectToPortfolio() {
+  window.location.href = "../index.html";
+}

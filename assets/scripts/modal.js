@@ -1,5 +1,11 @@
 const modals = document.querySelectorAll(".modal");
 
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    closeModal();
+  }
+});
+
 function noScroll() {
   window.scrollTo(0, 0);
 }
