@@ -227,6 +227,18 @@ body {
   opacity: 0.4;
 }
 
+.project {
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 1000px) {
+  .project {
+    width: 350px;
+    height: 350px;
+  }
+}
+
 /* ------------footer------------ */
 .footer-developed-by {
   margin: 2rem 0 1rem 0;

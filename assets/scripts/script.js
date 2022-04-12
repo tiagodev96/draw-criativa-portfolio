@@ -23,7 +23,7 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    600: {
+    700: {
       slidesPerView: 2,
     },
   },

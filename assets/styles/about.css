@@ -96,24 +96,29 @@
 .services-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
 }
 
 @media (max-width: 700px) {
   .services-grid {
     grid-template-columns: 1fr;
+    gap: 15px;
   }
 }
 
 .service {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
-.service1 {
+.service1,
+.service4 {
   background-color: #c8c6c6;
 }
 
-.service2 {
+.service2,
+.service5 {
   background-color: #d9d9d9;
 }
 
@@ -124,7 +129,7 @@
 .service-img {
   height: 400px;
   width: 100%;
-  object-fit: cover;
+  object-fit: cover top;
 }
 
 .service-text {
