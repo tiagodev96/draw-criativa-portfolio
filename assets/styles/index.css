@@ -61,7 +61,8 @@ body {
   }
 }
 
-.dropdown {
+.dropdown,
+.hide {
   display: none;
   visibility: hidden;
   opacity: 0;
@@ -230,6 +231,7 @@ body {
 .project {
   width: 500px;
   height: 500px;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
@@ -255,4 +257,57 @@ body {
 
 .footer-developed-by:hover {
   transform: scale(1.05);
+}
+
+/* ------------modal------------ */
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0 6rem;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1px 8px;
+  color: #212529;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  font-size: 2rem;
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.close-modal:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+  transform: scale(1.05);
+}
+
+.modal-swipper2 {
+  height: 65vh !important;
+}
+
+.modal-swipper {
+  height: 25vh !important;
+}
+
+.thumb-image {
+  cursor: pointer;
 }

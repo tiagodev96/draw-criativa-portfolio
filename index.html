@@ -119,11 +119,8 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="grid-slide">
-                <div class="project">
-                  <a
-                    class="link-to-project"
-                    href="https://www.google.com/search?q=project+1"
-                  ></a>
+                <div class="project" onclick="openProjetoDeMaquinasModal()">
+                  <a href="#"></a>
                   <img
                     src="./assets/images/services/projeto-de-maquinas/para-pdf-1.jpeg"
                     alt="Máquina carregadeira de exemplo para o portfólio de projetos de máquinas"
@@ -132,10 +129,7 @@
                   <h3 class="project-legend">Projetos de Máquinas</h3>
                 </div>
                 <div class="project">
-                  <a
-                    class="link-to-project"
-                    href="https://www.google.com/search?q=project+1"
-                  ></a>
+                  <a class="link-to-project" href="#"></a>
                   <img
                     src="./assets/images/services/dispositivos/DISPOSITIVO-DE-ALIMENTACAO-DE-PREGOS.jpeg"
                     alt="Dispositivo de alimentação de pregos de exemplo para o portfólio de dispositivos para máquinas"
@@ -148,10 +142,7 @@
             <div class="swiper-slide">
               <div class="grid-slide">
                 <div class="project">
-                  <a
-                    class="link-to-project"
-                    href="https://www.google.com/search?q=project+1"
-                  ></a>
+                  <a class="link-to-project" href="#"></a>
                   <img
                     src="./assets/images/services/adaptacao/MESA-DE-PREGAGEM-HIDRAULICA.jpeg"
                     alt="Mesa de pregagem hidráulica de exemplo para o portfólio de adaptação de máquinas"
@@ -160,10 +151,7 @@
                   <h3 class="project-legend">Adaptação de Máquinas</h3>
                 </div>
                 <div class="project">
-                  <a
-                    class="link-to-project"
-                    href="https://www.google.com/search?q=project+1"
-                  ></a>
+                  <a class="link-to-project" href="#"></a>
                   <img
                     src="./assets/images/services/layout-3d/LAYOUT-3D-3.png"
                     alt="Layout 3D feito em AUTOCAD de exemplo para o portfólio de Layout 3D"
@@ -176,10 +164,7 @@
             <div class="swiper-slide">
               <div class="grid-slide">
                 <div class="project">
-                  <a
-                    class="link-to-project"
-                    href="https://www.google.com/search?q=project+1"
-                  ></a>
+                  <a class="link-to-project" href="#"></a>
                   <img
                     src="./assets/images/services/nr12/MAQUINA-DE-CORTE-COM-ADEQUACAO-PARA-NR12-2.png"
                     alt="Layout 3D de máquina de corte com proteção feito em AUTOCAD de exemplo para o portfólio de NR12"
@@ -195,6 +180,85 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
+      <section class="modal hide" id="modal-projeto-de-maquinas">
+        <div class="close-modal" onclick="closeModal()">X</div>
+        <div
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+          class="swiper modal-swipper2"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy"
+                src="https://swiperjs.com/demos/images/nature-1.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy"
+                src="https://swiperjs.com/demos/images/nature-2.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy"
+                src="https://swiperjs.com/demos/images/nature-3.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy"
+                src="https://swiperjs.com/demos/images/nature-4.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy"
+                src="https://swiperjs.com/demos/images/nature-5.jpg"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper modal-swipper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="https://swiperjs.com/demos/images/nature-1.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="https://swiperjs.com/demos/images/nature-2.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="https://swiperjs.com/demos/images/nature-3.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="https://swiperjs.com/demos/images/nature-4.jpg"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swipper-lazy thumb-image"
+                src="https://swiperjs.com/demos/images/nature-5.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="container">
       <a class="footer-developed-by-link" href="https://github.com/tiagodev96"
@@ -204,5 +268,6 @@
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/scripts/script.js"></script>
+    <script src="./assets/scripts/modal.js"></script>
   </body>
 </html>
