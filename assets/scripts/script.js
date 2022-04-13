@@ -66,6 +66,24 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 //* redirection function PAGE ABOUT (SOBRE)
-function redirectToPortfolio() {
-  window.location.href = "../index.html";
+function redirectToProjetoDeMaquinas() {
+  window.location.href = "../index.html#projetos-de-maquinas";
+}
+function redirectToDispositivos() {
+  window.location.href = "../index.html#dispositivos";
+}
+function redirectToAdaptacao() {
+  window.location.href = "../index.html#adaptacao";
+}
+function redirectToLayout3D() {
+  window.location.href = "../index.html#layout3D";
+}
+function redirectToNR12() {
+  window.location.href = "../index.html#NR12";
+}
+function redirectToProjetosGerais() {
+  window.location.href = "../index.html#projetos-gerais";
+}
+function redirectToAtualizacaoEReestruturacao() {
+  window.location.href = "../index.html#atualizacao-e-reestruturacao";
 }
