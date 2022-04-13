@@ -273,6 +273,11 @@ body {
 .image-gallery {
   width: 250px;
   height: 250px;
+  transition: 0.3s ease-in-out;
+}
+
+.image-gallery:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 700px) {
