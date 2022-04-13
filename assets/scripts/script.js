@@ -10,6 +10,42 @@ menu.on("toggle", () => {
   dropmenu.classList.toggle("active");
 });
 
+//* LightGallery
+lightGallery(document.getElementById("gallery-projetos-de-maquinas"), {
+  plugins: [lgZoom, lgThumbnail],
+  speed: 500,
+});
+
+lightGallery(document.getElementById("gallery-dispositivos"), {
+  plugins: [lgZoom, lgThumbnail],
+  speed: 500,
+});
+
+lightGallery(document.getElementById("gallery-adaptacao"), {
+  plugins: [lgZoom, lgThumbnail],
+  speed: 500,
+});
+
+lightGallery(document.getElementById("gallery-layout3D"), {
+  plugins: [lgZoom, lgThumbnail],
+  speed: 500,
+});
+
+lightGallery(document.getElementById("gallery-NR12"), {
+  plugins: [lgZoom, lgThumbnail],
+  speed: 500,
+});
+
+lightGallery(document.getElementById("gallery-projetos-gerais"), {
+  plugins: [lgZoom, lgThumbnail],
+  speed: 500,
+});
+
+lightGallery(document.getElementById("gallery-atualizacao-e-reestruturacao"), {
+  plugins: [lgZoom, lgThumbnail],
+  speed: 500,
+});
+
 /* SWIPER */
 var swiper = new Swiper(".mySwiper", {
   pagination: {
