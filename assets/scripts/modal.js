@@ -1,5 +1,18 @@
 const modals = document.querySelectorAll(".modal");
 
+//* modal elements
+const modalProjetoDeMaquinas = document.querySelector(
+  "#modal-projeto-de-maquinas"
+);
+const modalDispositivos = document.querySelector("#modal-dispositivos");
+const modalAdaptacao = document.querySelector("#modal-adaptacao");
+const modalLayout3D = document.querySelector("#modal-layout3d");
+const modalNR12 = document.querySelector("#modal-NR12");
+const modalProjetosGerais = document.querySelector("#modal-projetos-gerais");
+const modalAtualizacaoEReestruturacao = document.querySelector(
+  "#modal-atualizacao-reestruturacao"
+);
+
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     closeModal();
@@ -18,10 +31,6 @@ function closeModal() {
 }
 
 //* modal projetos de máquinas
-const modalProjetoDeMaquinas = document.querySelector(
-  "#modal-projeto-de-maquinas"
-);
-
 function openProjetoDeMaquinasModal() {
   modalProjetoDeMaquinas.classList.remove("hide");
   window.scrollTo(0, 0);
@@ -47,8 +56,6 @@ var swiper2 = new Swiper(".modal-projetos-maquinas2", {
 });
 
 //* modal dispositivos
-const modalDispositivos = document.querySelector("#modal-dispositivos");
-
 function openDispositivosModal() {
   modalDispositivos.classList.remove("hide");
   window.scrollTo(0, 0);
@@ -75,8 +82,6 @@ var swiper2 = new Swiper(".modal-dispositivos2", {
 });
 
 //* modal adaptação
-const modalAdaptacao = document.querySelector("#modal-adaptacao");
-
 function openAdaptacaoModal() {
   modalAdaptacao.classList.remove("hide");
   window.scrollTo(0, 0);
@@ -103,8 +108,6 @@ var swiper2 = new Swiper(".modal-adaptacao2", {
 });
 
 //* modal layout 3D
-const modalLayout3D = document.querySelector("#modal-layout3d");
-
 function openLayout3DModal() {
   modalLayout3D.classList.remove("hide");
   window.scrollTo(0, 0);
@@ -131,8 +134,6 @@ var swiper2 = new Swiper(".modal-layout3d2", {
 });
 
 //* modal NR12
-const modalNR12 = document.querySelector("#modal-NR12");
-
 function openNR12Modal() {
   modalNR12.classList.remove("hide");
   window.scrollTo(0, 0);
@@ -147,6 +148,58 @@ var swiper = new Swiper(".modal-NR12", {
 });
 
 var swiper2 = new Swiper(".modal-NR122", {
+  lazy: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: swiper,
+  },
+});
+
+//* modal Projetos Gerais
+function openProjetosGeraisModal() {
+  modalProjetosGerais.classList.remove("hide");
+  window.scrollTo(0, 0);
+  window.addEventListener("scroll", noScroll);
+}
+
+var swiper = new Swiper(".modal-projetos-gerais", {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+
+var swiper2 = new Swiper(".modal-projetos-gerais2", {
+  lazy: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: swiper,
+  },
+});
+
+//* modal Atualização e Reestruturação de Projetos Antigos
+function openAtualizacaoEReestruturacaoModal() {
+  modalAtualizacaoEReestruturacao.classList.remove("hide");
+  window.scrollTo(0, 0);
+  window.addEventListener("scroll", noScroll);
+}
+
+var swiper = new Swiper(".modal-atualizacao-reestruturacao", {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+
+var swiper2 = new Swiper(".modal-atualizacao-reestruturacao2", {
   lazy: true,
   spaceBetween: 10,
   navigation: {

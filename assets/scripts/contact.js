@@ -2,7 +2,7 @@ const button = document.querySelector(".send-button");
 
 button.addEventListener("click", (e) => {
   e.preventDefault();
-  const phone = "5571993553196";
+  const phone = "5554997075333";
   let nameInput = document.querySelector("#name").value;
   let textInput = document.querySelector("#message").value;
 

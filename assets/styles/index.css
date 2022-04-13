@@ -236,15 +236,15 @@ body {
 }
 
 .project {
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 250px;
   cursor: pointer;
 }
 
 @media (max-width: 1000px) {
   .project {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -327,7 +327,9 @@ body {
 .modal-dispositivos2,
 .modal-adaptacao2,
 .modal-layout3d2,
-.modal-NR122 {
+.modal-NR122,
+.modal-projetos-gerais2,
+.modal-atualizacao-reestruturacao2 {
   height: 65vh !important;
 }
 
@@ -335,7 +337,9 @@ body {
 .modal-dispositivos,
 .modal-adaptacao,
 .modal-layout3d,
-.modal-NR12 {
+.modal-NR12,
+.modal-projetos-gerais,
+.modal-atualizacao-reestruturacao {
   height: 25vh !important;
 }
 
@@ -354,7 +358,9 @@ body {
   .modal-dispositivos2,
   .modal-adaptacao2,
   .modal-layout3d2,
-  .modal-NR122 {
+  .modal-NR122,
+  .modal-projetos-gerais2,
+  .modal-atualizacao-reestruturacao2 {
     height: 75vh !important;
   }
 
@@ -362,7 +368,9 @@ body {
   .modal-dispositivos,
   .modal-adaptacao,
   .modal-layout3d,
-  .modal-NR12 {
+  .modal-NR12,
+  .modal-projetos-gerais,
+  .modal-atualizacao-reestruturacao {
     height: 10vh !important;
   }
 }

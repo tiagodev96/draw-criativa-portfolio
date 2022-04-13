@@ -62,7 +62,7 @@
 
 .grid-slide {
   display: grid;
-  gap: 15px;
+  gap: 10px;
 }
 
 @media (max-width: 600px) {
