@@ -213,11 +213,17 @@ body {
 
 .page-title {
   position: relative;
-  height: 250px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .page-title {
+    height: 100px;
+  }
 }
 
 /* ------------PORTFOLIO HOMEPAGE------------ */
@@ -228,6 +234,7 @@ body {
 
 .title-background {
   position: absolute;
+  object-fit: cover;
   top: 0;
   left: 0;
   width: 100%;
