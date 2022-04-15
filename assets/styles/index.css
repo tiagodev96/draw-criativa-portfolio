@@ -323,3 +323,36 @@ html {
 .footer-developed-by:hover {
   transform: scale(1.05);
 }
+
+/** BOTÃO COMPARTILHE */
+.btn {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  background: #25d366;
+  background-image: -webkit-linear-gradient(top, #25d366, #1eab51);
+  background-image: -moz-linear-gradient(top, #25d366, #1eab51);
+  background-image: -ms-linear-gradient(top, #25d366, #1eab51);
+  background-image: -o-linear-gradient(top, #25d366, #1eab51);
+  background-image: linear-gradient(to bottom, #25d366, #1eab51);
+  -webkit-border-radius: 28;
+  border: none;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1eab51;
+  background-image: -webkit-linear-gradient(top, #1eab51, #25d366);
+  background-image: -moz-linear-gradient(top, #1eab51, #25d366);
+  background-image: -ms-linear-gradient(top, #1eab51, #25d366);
+  background-image: -o-linear-gradient(top, #1eab51, #25d366);
+  background-image: linear-gradient(to bottom, #1eab51, #25d366);
+  text-decoration: none;
+}

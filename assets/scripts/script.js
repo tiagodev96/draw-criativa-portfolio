@@ -90,3 +90,16 @@ var swiper = new Swiper(".mySwiper", {
 function redirectToContact() {
   window.location.href = "../../contact.html";
 }
+
+//* share on whatsapp
+function shareOnWhatsApp() {
+  let message = "Conheça o site da Draw Criativa!!";
+  let url = "https://drawcriativa-portfolio.vercel.app/";
+
+  let fullMessage = `${message} ${url}`;
+  let encodedMessage = encodeURIComponent(fullMessage);
+
+  let finalLink = `https://api.whatsapp.com/send?text=${encodedMessage}`;
+
+  window.open(finalLink, "_blank");
+}
