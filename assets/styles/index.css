@@ -21,6 +21,11 @@ body {
   font-family: "Crimson Pro", serif;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 .container {
   margin: auto;
   max-width: 1024px;
