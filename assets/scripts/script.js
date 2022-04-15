@@ -94,7 +94,7 @@ function redirectToContact() {
 //* share on whatsapp
 function shareOnWhatsApp() {
   let message = "Conheça o site da Draw Criativa!!";
-  let url = "https://drawcriativa.com.br";
+  let url = "https://www.drawcriativa.com.br";
 
   let fullMessage = `${message} ${url}`;
   let encodedMessage = encodeURIComponent(fullMessage);
