@@ -34,7 +34,7 @@ html {
 
 .page-subtitle {
   margin-top: 2rem;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
 }
 
 .element-separator {
@@ -80,9 +80,14 @@ html {
   opacity: 0;
 }
 
+.menu-describer {
+  font-weight: bold;
+}
+
 @media (max-width: 1000px) {
   .dropdown {
     display: flex;
+    align-items: center;
     visibility: visible;
     opacity: 1;
   }

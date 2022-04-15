@@ -13,36 +13,57 @@ menu.on("toggle", () => {
 //* LightGallery
 lightGallery(document.getElementById("gallery-projetos-de-maquinas"), {
   plugins: [lgZoom, lgThumbnail],
+  mobileSettings: {
+    showCloseIcon: true,
+  },
   speed: 500,
 });
 
 lightGallery(document.getElementById("gallery-dispositivos"), {
   plugins: [lgZoom, lgThumbnail],
+  mobileSettings: {
+    showCloseIcon: true,
+  },
   speed: 500,
 });
 
 lightGallery(document.getElementById("gallery-adaptacao"), {
   plugins: [lgZoom, lgThumbnail],
+  mobileSettings: {
+    showCloseIcon: true,
+  },
   speed: 500,
 });
 
 lightGallery(document.getElementById("gallery-layout3D"), {
   plugins: [lgZoom, lgThumbnail],
+  mobileSettings: {
+    showCloseIcon: true,
+  },
   speed: 500,
 });
 
 lightGallery(document.getElementById("gallery-NR12"), {
   plugins: [lgZoom, lgThumbnail],
+  mobileSettings: {
+    showCloseIcon: true,
+  },
   speed: 500,
 });
 
 lightGallery(document.getElementById("gallery-projetos-gerais"), {
   plugins: [lgZoom, lgThumbnail],
+  mobileSettings: {
+    showCloseIcon: true,
+  },
   speed: 500,
 });
 
 lightGallery(document.getElementById("gallery-atualizacao-e-reestruturacao"), {
   plugins: [lgZoom, lgThumbnail],
+  mobileSettings: {
+    showCloseIcon: true,
+  },
   speed: 500,
 });
 
