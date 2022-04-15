@@ -104,7 +104,6 @@
 
 .services {
   background: #f8f9fa;
-  margin: 5rem 0;
   padding: 2rem 0;
 }
 
@@ -189,4 +188,8 @@
 .service6 {
   max-width: 350px;
   background-color: #efefef;
+}
+
+#service-title {
+  margin-bottom: 0;
 }

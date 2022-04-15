@@ -75,7 +75,7 @@ body {
   opacity: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .dropdown {
     display: flex;
     visibility: visible;
